@@ -1,4 +1,4 @@
-Simple Colors Generator 🎨
+<h1>Simple Colors Generator</h1> 🎨
 
 A lightweight and user-friendly colors generator with the following features:
 
