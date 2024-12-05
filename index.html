@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ColorsGenerator</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="bg">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colors Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Colors Generator</h1>
+            <div class="color-display" id="color-display">
+                <p id="hex-code"></p>
+                <p id="rgb-code"></p>
+            </div>
+            <div class="buttons">
+                <button class="btn" id="generate" onclick="generateColor()">🎨 Generate Color</button>
+                <button class="btn" id="copy-hex" onclick="copyHexRgb('hex')">📋 Copy HEX</button>
+                <button class="btn" id="copy-rgb" onclick="copyHexRgb('rgb')">📋 Copy RGB</button>
+            </div>
+            <div class="radio-mode">
+                <label>
+                    <input type="radio" name="theme" value="light" onclick="switchTheme('light')" checked>
+                    Light Mode
+                </label>
+                <label>
+                    <input type="radio" name="theme" value="dark" onclick="switchTheme('dark')">
+                    Dark Mode
+                </label>
+            </div>
+        </div>
+
+    </body>
+    </html>
+
+    <script src="index.js"></script>
+</body>
+</html>
