@@ -1,4 +1,5 @@
 Simple Colors Generator 🎨
+
 A lightweight and user-friendly colors generator with the following features:
 
 Copy Hex Function: Easily copy generated color codes in HEX format.
